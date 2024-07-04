@@ -3,3 +3,11 @@
   margin: 0 auto;
   padding: 2rem;
 }
+
+.navbar {
+  border-radius: 10px;
+}
+
+.card-title {
+  text-align: center;
+}
