@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
-        <NavLink className="navbar-brand" to="/">Api App</NavLink>
+        <h4 className="navbar-brand">Api App</h4>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -13,19 +13,22 @@ const Navbar = () => {
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <NavLink className="nav-link" to="/" end>Home</NavLink>
+              <NavLink className="nav-link" to="/pages/about">About</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/addQuote">About</NavLink>
+              <NavLink className="nav-link" to="/pages/contacts">Contacts</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/addQuote">Contacts</NavLink>
+              <NavLink className="nav-link" to="/pages/info">Info</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/addQuote">Info</NavLink>
+              <NavLink className="nav-link" to="/pages/general">General</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/addQuote">Admin</NavLink>
+              <NavLink className="nav-link" to="/pages/more">More</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/pages/admin">Admin</NavLink>
             </li>
           </ul>
         </div>
